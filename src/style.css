@@ -1,0 +1,366 @@
+.header
+{
+    background: #03a9f4
+}
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.bn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .downline
+  {
+    height: "1px";
+    background-color: #666;
+   
+    width: 100%;
+
+  }
+  .menu-item {
+    padding: 0 20px;
+    margin: 2px 2px;
+    user-select: none;
+    cursor: pointer;
+    border: 1px transparent solid;
+  }
+  .menu-wrapper--inner{
+    transform: translate3d(8.2px, 0px, 0px);
+  }
+  .menu-item-wrapper {
+    border: 1px transparent solid;
+  }
+  .menu-item-wrapper.active {
+    border: 1px blue solid;
+  }
+  .menu-item.active {
+    border: 1px green solid;
+  }
+  .menu-item:hover {
+    box-shadow: 10px 10px 5px grey;
+  }
+  .horizontal-menu {
+    margin-top: 7px;
+  }
+  #header1st{
+    
+   
+    position: fixed;
+    margin-top: 10px;
+   
+  }
+  .mt-0 {
+    margin-top: 10px ;
+  }
+  .mb-2
+  {
+    width: 100px;
+  }
+  .hh
+  {
+    
+    margin-top: 20px ;
+    margin-left: 10px;
+   
+  }
+  .hh1
+  {
+    
+    margin-top: 30px ;
+  }
+  .chart
+  {
+    margin-left: 200px ;
+    display: inline-flex;
+  }
+  #tabbt
+  {
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
+  
+  
+  /* Style the active class, and buttons on mouse-over */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #555;
+    color: white;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+      display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .topnav.responsive .dropdown {float: none;}
+    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav.responsive .dropdown .dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+.carousel-inner > .item >img{
+  min-height : 300px;
+  max-height : 300px;
+  width : 100%;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  
+}
+
+.active, .button1:hover {
+  
+  color:black;
+  border-bottom: 2px solid  #4CAF50;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  
+}
+
+.active, .button2:hover {
+  
+  color:black;
+  border-bottom: 2px solid  #4CAF50;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  
+}
+
+.active, .button3:hover {
+  
+  color:black;
+  border-bottom: 2px solid  #4CAF50;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  
+}
+
+.active, .button4:hover {
+  
+  color:black;
+  border-bottom: 2px solid  #4CAF50;
+}
+
+.active, .button5:hover {
+  
+  color:black;
+  border-bottom: 2px solid  #4CAF50;
+}
+.button5 {
+  background-color: white;
+  color: white;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url('./muktinarrow.ttf');
+}
+
+.btext {
+  font-family: myFirstFont;
+  float: left;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 130px;
+}
+.btext1 {
+  font-family: myFirstFont;
+  float: left;
+  font-size: 20px;
+  
+}
+.fonttext{
+  font-family: myFirstFont;
+}
+.red{
+  color: red !important;
+}
+
+.red {
+  color: red !important;
+}
+
+footer {
+  background-color: #f5f5f5;
+  padding: 80px 0;
+}
+footer .footer-widget h3 {
+  margin-bottom: 30px;
+}
+footer .contact-link {
+  display: inline-block;
+  width: 100%;
+  color: #333;
+}
+footer .footer-social ul {
+  padding-left: 0;
+}
+footer .footer-social ul li {
+  list-style: none;
+  float: left;
+  padding: 0 10px;
+}
+footer .footer-social ul li:first-child {
+  padding-left: 0;
+}
+footer .footer-social ul li a {
+  font-size: 20px;
+  color: #333;
+}
+footer .footer-social ul li a:hover {
+  color: red;
+}
+footer .opening-time {
+  padding-left: 0;
+}
+footer .opening-time li {
+  list-style: none;
+}
+footer .opening-time li span {
+  float: left;
+  padding-right: 10px;
+}
+footer .opening-time li span .fa-times {
+  color: red;
+}
+footer .opening-time li strong {
+  color: red;
+}
+footer .media-body a {
+  color: #333;
+}
+footer .media-body a:hover {
+  color: red;
+}
+footer .media-body span {
+  color: #969696;
+}
+footer .images-gellary ul {
+  padding-left: 0;
+}
+footer .images-gellary ul li {
+  list-style: none;
+  float: left;
+  margin: 0 3% 2% 0;
+  width: 31%;
+  position: relative;
+}
+footer .images-gellary ul li:nth-child(3n) {
+  margin: 0 0 1%;
+}
+.fixed-top
+{
+  height: 102px;
+}
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.product-img-wrapper {
+  margin: -15px -15px 0;
+  height: 0;
+  padding-bottom: 100%;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid ;
+}
+.product-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.product-price {
+  margin-bottom: 0;
+}
